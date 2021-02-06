@@ -1,2 +1,3 @@
-export { add } from './add'
-export { multiply } from './multiply'
+export function sleep<T>(ms: number): Promise<T> {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
