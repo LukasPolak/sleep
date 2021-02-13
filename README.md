@@ -4,6 +4,10 @@
 
 Resolve a promise after specified timeout
 
+## Demo
+
+[CodeSandbox](https://codesandbox.io/s/sleep-og2ry?file=/src/App.tsx)
+
 ## Getting started
 
 To use this package, you only need to install this dependency, import it and invoke the `sleep` function, e.g.:
